@@ -12,6 +12,7 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
+import datetime
 import sys
 import os
 import shlex
@@ -29,8 +30,16 @@ import shlex
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+extensions = [
+    "sphinx.ext.autodoc",
+    "sphinx.ext.doctest",
+    "sphinx.ext.todo",
+    "sphinx.ext.coverage",
+    "sphinx.ext.ifconfig",
+    "sphinx.ext.viewcode",
+]
 
+todo_include_todos = True
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -81,11 +90,11 @@ exclude_patterns = ['_build']
 #default_role = None
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
-#add_function_parentheses = True
+add_function_parentheses = True
 
 # If true, the current module name will be prepended to all description
 # unit titles (such as .. function::).
-#add_module_names = True
+add_module_names = True
 
 # If true, sectionauthor and moduleauthor directives will be shown in the
 # output. They are ignored by default.
@@ -101,14 +110,14 @@ pygments_style = 'sphinx'
 #keep_warnings = False
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = False
+#todo_include_todos = False
 
 
 # -- Options for HTML output ----------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'alabaster'
+html_theme = 'default'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -137,7 +146,7 @@ html_theme = 'alabaster'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = []
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -201,6 +210,9 @@ html_static_path = ['_static']
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'terracotta_docdoc'
+
+git_cmd = "git log --pretty=format:'%ad, commit %h' --date=local -n1"
+html_last_updated_fmt = os.popen(git_cmd).read()
 
 # -- Options for LaTeX output ---------------------------------------------
 

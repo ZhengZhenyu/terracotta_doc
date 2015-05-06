@@ -55,7 +55,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'terracotta_doc'
+project = u'Terracotta'
 copyright = u'2015, Kevin Zheng'
 author = u'Kevin Zheng'
 

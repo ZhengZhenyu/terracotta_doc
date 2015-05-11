@@ -23,8 +23,6 @@ standards and made more practical in futrue production environment usage.
 
 .. image:: ./images/terracotta_overview.png
    :align: center
-   
-   **Figure1**
 
 Contents
 --------

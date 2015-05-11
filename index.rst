@@ -44,7 +44,7 @@ Contents
    gates
    feature_requests
    project_info
-   release_notes
+   release_note
 
 References
 --------

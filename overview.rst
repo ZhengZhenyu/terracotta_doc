@@ -31,3 +31,5 @@ In general, the problem of dynamic instance consolidation can be split into 4 su
       4. Placing instances selected for migration to other active or re-activated hosts.
       
 The aim of the OpenStack Terracotta project is to provide an extensible framework for dynamic consolidation of instances based on the OpenStack platform. The framework provides an infrastructure enabling the interaction of components implementing the 4 decision-making algorithms listed above. The framework allows configuration-driven switching of different implementations of the decision-making algorithms. 
+
+*Note: The current version of this file is copied from Neat with modifications* 

@@ -21,9 +21,9 @@ What is TerraCotta?
 for Cloud Computing", it is a total reconstructed and enhanced version of **Neat** in order to comply with OpenStack's 
 standards and made more practical in futrue production environment usage.
 
-.. image:: ./images/terracottaworriors.jpg
+.. image:: ./images/terracotta_overview.png
    :align: center
-
+   Fig.1 Overview of TerraCotta mission procedure.
 
 Contents
 --------

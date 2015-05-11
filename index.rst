@@ -19,7 +19,7 @@ What is TerraCotta?
 **TerraCotta** is a **Dynamic Resource Consolidation** of instances in Openstack Clouds. **TerraCotta** is with reference to 
 **Neat** programed by Anton Beloglazov in his Ph.D thesis "Energy-Efficient Management of Virtual Machines in Data Centers
 for Cloud Computing", it is a total reconstructed and enhanced version of **Neat** in order to comply with OpenStack's 
-standards.
+standards and made more practical in futrue production environment usage.
 
 .. image:: ./images/terracottaworriors.jpg
    :align: center

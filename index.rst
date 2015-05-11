@@ -24,7 +24,7 @@ standards and made more practical in futrue production environment usage.
 .. image:: ./images/terracotta_overview.png
    :align: center
    
-   图: The overview of TerraCotta mission procedure.
+   **Figure1**
 
 Contents
 --------

@@ -1,6 +1,6 @@
 ..
       Copyright 2015 Huawei Technologies Co. Ltd. All Rights Reserved.
-
+      
       Licensed under the Apache License, Version 2.0 (the "License"); you may
       not use this file except in compliance with the License. You may obtain
       a copy of the License at
@@ -16,7 +16,10 @@
 What is TerraCotta?
 ==============
 
-**TerraCotta** is a **Dynamic Resource Consolidation** of instances in Openstack Clouds.
+**TerraCotta** is a **Dynamic Resource Consolidation** of instances in Openstack Clouds. **TerraCotta** is with reference to 
+**Neat** programed by Anton Beloglazov in his Ph.D thesis "Energy-Efficient Management of Virtual Machines in Data Centers
+for Cloud Computing", it is a total reconstructed and enhanced version of **Neat** in order to comply with OpenStack's 
+standards.
 
 .. image:: ./images/terracottaworriors.jpg
    :align: center

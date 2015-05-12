@@ -1,3 +1,3 @@
 ========================
-Content of doc directory
+TerraCotta Document Readme
 ========================

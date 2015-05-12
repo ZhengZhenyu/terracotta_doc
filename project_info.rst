@@ -13,6 +13,19 @@
       License for the specific language governing permissions and limitations
       under the License.
 
-Project Info
-==============
+.. _project_info:
 
+Project Info
+============
+
+Useful links
+------------
+- `Source code <https://github.com/stackforge/terracotta>`_
+- `Project space <https://launchpad.net/terracotta>`_
+- `Bugs <https://bugs.launchpad.net/terracotta>`_
+- `Patches on review <https://review.openstack.org/#/q/project:stackforge/terracotta,n,z>`_
+
+
+Where can I discuss and propose changes?
+----------------------------------------
+- Our IRC channel: 
